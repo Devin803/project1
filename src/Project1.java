@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class Project1 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String [] args) throws IOException {
         var fileName = "products.txt";
         var product = Paths.get(fileName);
         var productName =  new ArrayList<String>();
@@ -20,7 +20,7 @@ public class Project1 {
             productAmount.add(productA);
         }
         for (int i = 0; i< productPrice.size(); i++){
-            System.out.println("Product: " +productName.get(i) + " Product Price: " +productPrice.get(i) + "Product Amount: " +productAmount.get(i));
+            System.out.println("Product: " +productName.get(i) + " Product Price: " +productPrice.get(i) + " Product Amount: " +productAmount.get(i));
         }
     }
 }

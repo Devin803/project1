@@ -1,3 +1,0 @@
-Apples,0.69,60
-Bananas,0.50,80
-Peaches,1.00,40
